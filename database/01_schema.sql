@@ -51,3 +51,4 @@ registered_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 CONSTRAINT pk_enrollments
 PRIMARY KEY (student_id, class_section_id)
 );
+
